@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "homework_10_1"
+name = "homework_10_2"
 version = "0.1.0"
 description = ""
 authors = ["Alex <ddubokk@gmail.com>"]
@@ -15,6 +15,9 @@ mypy = "^1.14.0"
 black = "^26.10.1"
 isort = "^6.0.0"
 pytest = "^9.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^7.1.0"
 
 [build-system]
 requires = ["poetry-core"]
